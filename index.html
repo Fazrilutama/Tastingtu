@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastingtu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>|~ TASTINGTU ~|</h1>
+    <p class="paragraf">Silahkan Pilih Salah Satu Pilihan Antara: <b>Kertas,</b> <b>Gunting,</b> <b>Batu</b></p>
+
+    <div class="areaScore">
+        <h1 id="scoreComp"  title="scoreComp">0</h1>
+        <h1 > : </h1>
+        <h1 id="scorePlayer" title="scorePlayer">0</h1>
+    </div>
+    
+    <div class="container">
+        <div class="area-komputer">
+            <img src="img/batu.png" class="img-komputer">
+        </div>
+        <div class="info"></div>
+        <div class="area-player">
+            <ul>
+                <li>
+                    <img src="img/batu.png" class="batu">
+                </li>
+                <li>
+                    <img src="img/gunting.png" class="gunting">
+                </li>
+                <li>
+                    <img src="img/kertas.png" class="kertas">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <h3>Aturan Permainan</h3>
+    <div class="container-aturan">
+        <ul class="aturan-box">
+            <li class="aturan">
+                <i>Player / anda</i> Akan Digambarkan Dengan Warna <b>Biru</b>, sedangkan <u>computer</u> akan digambarkan dengan warna <b>merah</b>
+            </li>
+
+            <li class="aturan">
+                Pilihan dari <u>computer</u> akan diacak, <u>computer</u> dapat mengeluarkan gamabar <b>Kertas</b>, <b>Gunting</b>, <b>batu</b>
+            </li>
+
+            <li class="aturan">
+                Jika pilihan dari anda dan pilihan <u>computer</u> sama maka haslnya <b>seri</b>
+            </li>
+
+            <li class="aturan">
+                Jika Pilihan anda adalah <b>kertas</b> dan pilihan <u>computer</u> adalah batu maka hasilnya anda <b>Menang</b> begitupun sebaliknya
+            </li>
+
+            <li class="aturan">
+                Jika Pilihan anda adalah <b>gunting</b> dan pilihan komputer adalah ketas maka hasilnya anda <b>Menang</b> begitupun sebaliknya
+            </li>
+
+            <li class="aturan">
+                Jika Pilihan anda adalah <b>batu</b> dan pilihan <u>computer</u> adalah gunting maka hasilnya anda <b>Menang</b> begitupun sebaliknya
+            </li>
+
+            <li class="aturan">
+                Jika anda menang maka anda akan mendapatkan <b>poin +1</b>
+            </li>
+
+            <li class="aturan">
+                Jika <u>computer</u> menang maka <u>computer</u> akan mendapatkan <b>poin +1</b>
+            </li>
+
+
+        </ul>
+    </div>
+
+    <Footer>Create By Fazril Utama</Footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
